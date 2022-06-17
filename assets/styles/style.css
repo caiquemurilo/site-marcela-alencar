@@ -1,0 +1,82 @@
+/* =========== GERAL =========== */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+:root {
+  /*   --primary-color: hsl(170, 100%, 26%);
+  --headline-color: hsl(210, 11%, 15%);
+  --paragraph-color: hsl(210, 9%, 31%);
+
+  --brand-beige: hsl(39, 100%, 97%);
+  --brand-light: hsl(148, 23%, 89%);
+
+  */
+  --nav-height: 7.2rem;
+
+  font-size: 62.5%; /* agora 1rem = 10px 
+  por default, 1rem = 16px*/
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+
+  text-align: center;
+
+  overflow: overlay; /* faz com que a barra de rolagem não some pixels para os positions*/
+}
+
+ul {
+  list-style: none;
+}
+
+/* =========== HEADER =========== */
+header {
+  background-color: hsl(60, 100%, 90%);
+  height: 7rem;
+  padding: 2rem;
+  width: 100%;
+}
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav .logo {
+  margin-right: auto;
+}
+nav ul {
+  display: flex;
+  width: 40rem;
+  margin-top: 1rem;
+}
+ul li {
+  width: 100%;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* =========== MAIN =========== */
+.title {
+  height: 40rem;
+  width: 80%;
+  margin: auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+/* =========== FOOTER =========== */
