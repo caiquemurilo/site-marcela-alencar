@@ -56,7 +56,6 @@ nav ul {
   display: flex;
   width: 40rem;
   margin-top: 1rem;
-  flex-wrap: wrap;
 }
 ul li {
   width: 100%;
@@ -192,5 +191,8 @@ form button {
   }
   .footer-socialMedias ul li {
     margin-left: 0;
+  }
+  nav ul {
+    flex-wrap: wrap;
   }
 }
