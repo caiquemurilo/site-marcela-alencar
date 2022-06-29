@@ -79,6 +79,11 @@ ul li a {
 #aboutMe p {
   margin-top: 3rem;
 }
+@media (max-width: 768px) {
+  #aboutMe h1 {
+    margin-top: 3rem;
+  }
+}
 
 /* WORK */
 
